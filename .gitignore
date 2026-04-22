@@ -23,9 +23,14 @@ Thumbs.db
 .idea/
 
 # Data outputs
+data/*
+
+# Allow only sample output files
+!data/latest_posts.json
+!data/latest_posts.csv
+
+# Ignore images
 data/images/
-data/*.json
-data/*.csv
 
 # Logs
 *.log
