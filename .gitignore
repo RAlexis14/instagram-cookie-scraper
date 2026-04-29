@@ -1,0 +1,36 @@
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual env
+venv/
+.env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data outputs
+data/*
+
+# Allow only sample output files
+!data/latest_posts.json
+!data/latest_posts.csv
+
+# Ignore images
+data/images/
+
+# Logs
+*.log
